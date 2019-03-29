@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* .theband {
+    padding-top: 69px;
+    background-image: url(./media/band_background.jpg);
+    border: 1px black solid;
+} */
+
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 69px;
+    opacity: 0.9;
+    border: 1px black solid;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    padding-left: 10px;
+}
+
+.mirror {
+    display: inline-block;
+    transform: scaleX(-1); 
+    filter: FlipH;
+}
+
+.bandmembers {
+    display: flex; 
+    border: 1px solid black;
+}
+
+.band-members {
+    display: block;
+    margin: 0px;
+    height: 250px;
+    width: 350px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.main {
+    padding-top: 69px;
+}
