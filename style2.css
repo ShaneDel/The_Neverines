@@ -6,6 +6,8 @@ body {
 
 img {
     margin: auto;
-    width: 350px;
-    height: 350px;
+    padding-top: 500px;
+    padding-left: 625px;
+    width: 450px;
+    height: 450px;
 }
