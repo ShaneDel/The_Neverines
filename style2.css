@@ -2,12 +2,12 @@ body {
     margin: 0;
     background: url(./media/band.jpg);
     background-size: 1680px 936px;
+    text-align: center;
 }
 
 img {
     margin: auto;
     padding-top: 425px;
-    padding-left: 625px;
     width: 450px;
     height: 450px;
 }
